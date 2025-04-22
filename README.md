@@ -46,12 +46,11 @@ I recently revisited the project with my current experience as a data analyst to
   - A fun surprise: **"Even Month?"**, which surprisingly showed high correlation
 
 - `FollowUpAnalysis.ipynb` / `FollowUpAnalysis.html`  
-  **Updated analysis (2025)** — A complete overhaul of the original pipeline using modern tools and deeper insights:
+  **Updated analysis (2025)** — A complete overhaul of the original pipeline to better outline the entire process and improve the model:
   - Enhanced data cleaning and transformation
-  - Feature engineering based on delivery time constraints
   - Model comparison with **XGBoost** and **Random Forest**
   - Feature importance visualizations and tuning
-  - Significantly improved R² scores over the original models
+  - Significantly improved R² scores over the original models, 0.86 for the XGBoost model.
 
 ---
 
@@ -60,8 +59,8 @@ I recently revisited the project with my current experience as a data analyst to
 - Cleaned all time fields using true datetime parsing  
 - Added geospatial decomposition: `lat_diff`, `lon_diff`, `lat_bucket`  
 - Modeled time-based behaviors with `order_hour`, `rush hour`, `weekend`, etc.  
-- Used **GridSearchCV** to tune model hyperparameters  
-- Integrated **XGBoost**, achieving stronger accuracy and interpretability
+- Used **GridSearchCV** to tune model hyperparameters (full search not in the notebook file)  
+- Overall, less mistakes were made given my greater experience and better current coding habits.
 
 ---
 
