@@ -3,7 +3,7 @@
 This repository contains all of the files used and created as part of a data science challenge in Kaggle. 
 link at https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv. 
 
-FinalReport.pdf: This is the final report that I wrote for the project. It provides all details of the project's context, development, and results. See this pdf if you'd like to look into the project in more detail. The models used were Random Forest Regression and an FNN, and their respective testing accuracies came out to be 73.44% and 72.78%.
+FinalReport.pdf: This is the final report that I wrote for the project. It provides all details of the project's context, development, and results. See this pdf if you'd like to look into the project in more detail. The models used were Random Forest Regression and an FNN, and their respective r2-scores came out to be 73.44% and 72.78%.
 
 DataCleaning.py: This python file contains the code written to properly clean and reformat the raw dataset from Kaggle. This includes dropping the null values, reformatting dates and times to datetime objects, converting geographical coordinates to geodistances, and converting categorical variables to numerical variables. This file also includes the time and date feature engineering (day of the week, month, etc.)
 
