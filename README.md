@@ -22,8 +22,8 @@ I recently revisited the project with my current experience as a data analyst to
   My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I have not changed this report since it was submitted as I prefer to maintain its authenticity from the pre-ChatGPT era.
   
   **R² Scores:**  
-  - Random Forest: **73.44%**  
-  - Feed-Forward Neural Net: **72.78%**
+  - Random Forest: **0.73**  
+  - Feed-Forward Neural Net: **0.73**
 
 - `initial_data_cleaning.py`  
   Script used to clean the raw Kaggle dataset. Includes:
