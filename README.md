@@ -49,7 +49,7 @@ I recently revisited the project with my current experience as a data analyst to
 - `updated_predictive_models.ipynb` / `FollowUpAnalysis.html`  
   **Updated analysis (2025)** — A complete overhaul of the original pipeline to better outline the entire process and improve the model:
   - Enhanced data cleaning and transformation
-  - Model comparison with **XGBoost** and **Random Forest**
+  - Model comparison with **XGBoost**, **Random Forest**, and **PyTorch Feed-Forward Neural Network**
   - Feature importance visualizations and tuning
   - Significantly improved R² scores over the original models, 0.86 for the XGBoost model.
 
