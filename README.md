@@ -1,4 +1,4 @@
-# Food Delivery Regression Model
+# Food Delivery Time Regression Model
 
 This repository contains all of the files used and created as part of a data science challenge in Kaggle. 
 link at https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv.
