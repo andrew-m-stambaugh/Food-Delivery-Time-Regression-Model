@@ -1,7 +1,9 @@
 # Predicting Food Delivery Times with Machine vs Deep Learning
 
 This repository contains all of the files used and created as part of a data science challenge in Kaggle. 
-link at https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv. 
+link at https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv.
+
+I completed this challenge as part of the course MECH_ENG 329: Mechanistic Data Science for Engineering at Northwestern. This was one of my first end-to-end data science projects I'd ever completed, and although looking back there were many things I would change, it was a fantastic learning experience.
 
 FinalReport.pdf: This is the final report that I wrote for the project. It provides all details of the project's context, development, and results. See this pdf if you'd like to look into the project in more detail. The models used were Random Forest Regression and an FNN, and their respective r2-scores came out to be 73.44% and 72.78%.
 
