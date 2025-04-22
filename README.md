@@ -1,14 +1,75 @@
-# Food Delivery Time Regression Model
+📘 Background
+This project was initially completed as part of MECH_ENG 329: Mechanistic Data Science for Engineering at Northwestern University. It was one of my first end-to-end machine learning projects, and while many decisions now feel rudimentary, it was a foundational learning experience that built my interest in applied modeling.
 
-This repository contains all of the files used and created as part of a data science challenge in Kaggle. 
-link at https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv.
+I recently revisited the project with my current experience as a data analyst to improve the pipeline, add deeper feature engineering, and evaluate stronger models.
 
-I completed this challenge as part of the course MECH_ENG 329: Mechanistic Data Science for Engineering at Northwestern. This was one of my first end-to-end machine projects I'd ever completed, and although looking back there were many things I would change, it was a fantastic learning experience.
+📁 Files
+FinalReport.pdf:
+My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN).
 
-FinalReport.pdf: This is the final report that I wrote for the project. It provides all details of the project's context, development, and results. See this pdf if you'd like to look into the project in more detail. The models used were Random Forest Regression and an FNN, and their respective r2-scores came out to be 73.44% and 72.78%.
+R² Scores:
 
-DataCleaning.py: This python file contains the code written to properly clean and reformat the raw dataset from Kaggle. This includes dropping the null values, reformatting dates and times to datetime objects, converting geographical coordinates to geodistances, and converting categorical variables to numerical variables. This file also includes the time and date feature engineering (day of the week, month, etc.)
+Random Forest: 73.44%
 
-PredictiveModels.py: This python file contains the code written for feature engineering and training the models. The feature engineering includes converting numerical variables with discontinuous and dichotomous behavior to binary variables, and splitting the geodistance data set. The models trained were a Random Forest Regression model and a Feed Forward Neural Network.
+Feed-Forward Neural Net: 72.78%
 
-train_clean.csv: The data set after being cleaned. There are 15 features, including Driver Age, Driver Rating, Traffic Level, Vehicle Condition, Number of Extra Deliveries, Festival?, Geo Distance, Sunny?, Fog?, Motorcycle?, Urban Density (1-4), Hour, Night?, Rush Hour?, Even Month? (This feature oddly has a strong affect on the data). See the link for the original raw dataset.
+DataCleaning.py:
+Script used to clean the raw Kaggle dataset. Includes:
+
+Null value removal
+
+Timestamp parsing
+
+Geographic distance calculation
+
+Categorical encoding
+
+Temporal feature creation (e.g., day of week, month)
+
+PredictiveModels.py:
+Initial model training script. Includes:
+
+Binary encoding of discontinuous numerical features
+
+Model training and evaluation for both RF and FNN
+
+train_clean.csv:
+Cleaned dataset used for modeling. Includes 15 features such as:
+
+Driver Age, Driver Rating
+
+Traffic Level, Vehicle Condition
+
+Festival, Weather Flags, Geo Distance
+
+Urban density, Time of day, Rush hour flags
+
+A fun surprise: "Even Month?", which surprisingly showed high correlation
+
+FollowUpAnalysis.ipynb / FollowUpAnalysis.html:
+Updated analysis (2025) — A complete overhaul of the original pipeline using modern tools and deeper insights:
+
+Enhanced data cleaning and transformation
+
+Feature engineering based on delivery time constraints
+
+Model comparison with XGBoost and Random Forest
+
+Feature importance visualizations and tuning
+
+Significantly improved R² scores over the original models
+
+🚀 Improvements Over the Original
+Cleaned all time fields using true datetime parsing
+
+Added geospatial decomposition: lat_diff, lon_diff, lat_bucket
+
+Modeled time-based behaviors with order_hour, rush hour, weekend, etc.
+
+Used GridSearchCV to tune model hyperparameters
+
+Integrated XGBoost, achieving stronger accuracy and interpretability
+
+💬 Reflections
+This project is a good snapshot of how my skills have evolved — from understanding the basics of scikit-learn to leveraging structured pipelines and advanced models for better performance. While the original project was valuable, this update reflects a much more production-minded approach to data science.
+
