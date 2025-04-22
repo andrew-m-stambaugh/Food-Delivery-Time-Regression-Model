@@ -12,20 +12,20 @@ The goal was to build a model that accurately predicts delivery times based on o
 This project was initially completed as part of **MECH_ENG 329: Mechanistic Data Science for Engineering** at Northwestern University in 2022. It was one of my first end-to-end machine learning projects, and while many decisions now feel rudimentary, it was a foundational learning experience that built my interest in applied modeling.
 
 I recently revisited the project with my current experience as a data analyst to improve the model, with a strong focus on clean, simple, but effective code.
-👉 View the updated modeling notebook here: [FollowUpAnalysis.ipynb](./FollowUpAnalysis.ipynb)  
+👉 View the updated modeling notebook here: [FollowUpAnalysis.ipynb](./updated_predictive_models.ipynb)  
 
 ---
 
 ## 📁 Files
 
-- `FinalReport.pdf`  
+- `Initial Final Report.pdf`  
   My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I have not changed this report since it was submitted as I prefer to maintain its authenticity from the pre-ChatGPT era.
   
   **R² Scores:**  
   - Random Forest: **73.44%**  
   - Feed-Forward Neural Net: **72.78%**
 
-- `DataCleaning.py`  
+- `initial_data_cleaning.py`  
   Script used to clean the raw Kaggle dataset. Includes:
   - Null value removal
   - Timestamp parsing
@@ -33,12 +33,12 @@ I recently revisited the project with my current experience as a data analyst to
   - Categorical encoding
   - Temporal feature creation (e.g., day of week, month)
 
-- `PredictiveModels.py`  
+- `initial_predictive_models.py`  
   Initial model training script. Includes:
   - Binary encoding of discontinuous numerical features
   - Model training and evaluation for both RF and FNN
 
-- `train_clean.csv`  
+- `initial_train_clean.csv`  
   Cleaned dataset used for modeling. Includes 15 features such as:
   - Driver Age, Driver Rating
   - Traffic Level, Vehicle Condition
@@ -46,7 +46,7 @@ I recently revisited the project with my current experience as a data analyst to
   - Urban density, Time of day, Rush hour flags
   - A fun surprise: **"Even Month?"**, which surprisingly showed high correlation
 
-- `FollowUpAnalysis.ipynb` / `FollowUpAnalysis.html`  
+- `updated_predictive_models.ipynb` / `FollowUpAnalysis.html`  
   **Updated analysis (2025)** — A complete overhaul of the original pipeline to better outline the entire process and improve the model:
   - Enhanced data cleaning and transformation
   - Model comparison with **XGBoost** and **Random Forest**
