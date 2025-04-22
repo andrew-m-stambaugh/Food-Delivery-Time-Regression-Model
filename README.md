@@ -18,7 +18,7 @@ I recently revisited the project with my current experience as a data analyst to
 ## 📁 Files
 
 - `FinalReport.pdf`  
-  My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN).  
+  My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I have not changed this report since it was submitted as I prefer to maintain its authenticity from the pre-ChatGPT era. 
   **R² Scores:**  
   - Random Forest: **73.44%**  
   - Feed-Forward Neural Net: **72.78%**
