@@ -13,6 +13,7 @@ This project was initially completed as part of **MECH_ENG 329: Mechanistic Data
 
 I recently revisited the project with my current experience as a data analyst to improve the model, with a strong focus on clean, simple, but effective code.
 👉 View the updated modeling notebook here: [FollowUpAnalysis.ipynb](./FollowUpAnalysis.ipynb)  
+
 ---
 
 ## 📁 Files
