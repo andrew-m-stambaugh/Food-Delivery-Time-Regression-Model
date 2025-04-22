@@ -12,7 +12,7 @@ The goal was to build a model that accurately predicts delivery times based on o
 This project was initially completed as part of **MECH_ENG 329: Mechanistic Data Science for Engineering** at Northwestern University in 2022. It was one of my first end-to-end machine learning projects, and while many decisions now feel rudimentary, it was a foundational learning experience that built my interest in applied modeling.
 
 I recently revisited the project with my current experience as a data analyst to improve the model, with a strong focus on clean, simple, but effective code.
-👉 View the updated modeling notebook here: [FollowUpAnalysis.ipynb](./updated_predictive_models.ipynb)  
+👉 View the updated modeling notebook here: [updated_predictive_models.ipynb](./updated_predictive_models.ipynb)  
 
 ---
 
