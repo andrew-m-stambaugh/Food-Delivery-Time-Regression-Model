@@ -44,8 +44,7 @@ I recently revisited the project with my current experience as a data analyst to
   - Traffic Level, Vehicle Condition
   - Festival, Weather Flags, Geo Distance
   - Urban density, Time of day, Rush hour flags
-  - A fun surprise: **"Even Month?"**, which surprisingly showed high correlation
-
+    
 - `updated_predictive_models.ipynb` / `FollowUpAnalysis.html`  
   **Updated analysis (2025)** — A complete overhaul of the original pipeline to better outline the entire process and improve the model:
   - Enhanced data cleaning and transformation
