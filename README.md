@@ -19,7 +19,7 @@ I recently revisited the project with my current experience as a data analyst to
 ## 📁 Files
 
 - `Initial Final Report.pdf`  
-  My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I have not changed this report since it was submitted as I prefer to maintain its authenticity from the pre-ChatGPT era.
+  My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I have not changed this report since it was submitted as I prefer to maintain its authenticity. Since then, with the help of numerous mentors, I've deeply improved the concisity and clarity of my writing
   
   **R² Scores:**  
   - Random Forest: **0.73**  
