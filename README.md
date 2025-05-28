@@ -61,9 +61,3 @@ I recently revisited the project with my current experience as a data analyst to
 - Modeled time-based behaviors with `order_hour`, `rush hour`, `weekend`, etc.  
 - Used **GridSearchCV** to tune model hyperparameters (full search not in the notebook file)  
 - Overall, less mistakes were made given my greater experience and better current coding habits.
-
----
-
-## 💬 Reflections
-
-This project is a good snapshot of how my skills have evolved — from understanding the basics of scikit-learn to leveraging structured pipelines and advanced models for better performance. While the original project was valuable, this update reflects a much more production-minded approach to data science.
