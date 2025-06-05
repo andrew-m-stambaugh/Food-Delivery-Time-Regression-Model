@@ -22,7 +22,7 @@ I recently revisited the project with my current experience as a data analyst to
   My original college report. It documents the initial model development, context, and results using Random Forest Regression and a simple feed-forward neural network (FNN). I’ve left it unchanged to preserve its authenticity. Back then my writing was wordy; frequent ‘get-to-the-point’ feedback from executives since has sharpened my concision and clarity.
   
   **R² Scores:**  
-  - Random Forest: **0.73**  
+  - Random Forest: **0.74**  
   - Feed-Forward Neural Net: **0.73**
 
 - `initial_data_cleaning.py`  
@@ -50,7 +50,7 @@ I recently revisited the project with my current experience as a data analyst to
   - Enhanced data cleaning and transformation
   - Model comparison with **XGBoost**, **Random Forest**, and **PyTorch Feedforward Neural Network**
   - Feature importance visualizations and tuning
-  - Significantly improved R² scores over the original models, 0.86 for the XGBoost model.
+  - Significantly improved R² scores over the original models, 0.89 for the XGBoost model.
 
 ---
 
